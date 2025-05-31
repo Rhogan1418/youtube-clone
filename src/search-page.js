@@ -15,6 +15,7 @@ export class SearchPage extends LitElement {
       flex-direction: column;
       width: 100%;
       height: 100vh;
+      background-color: #0f0f0f;
     }
 
   `;

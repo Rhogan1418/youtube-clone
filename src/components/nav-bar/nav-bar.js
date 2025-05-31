@@ -3,6 +3,7 @@ import hamburgerMenuIcon from '../../assets/hamburger-menu.svg';
 import personOutlineIcon from '../../assets/person-circle-outline.svg';
 import youtubeLogo from '../../assets/youtube-logo.svg';
 import '../button/round-button.js';
+import '../input/search-input.js';
 
 export class Navbar extends LitElement {
 
@@ -58,7 +59,7 @@ export class Navbar extends LitElement {
             </a>
           </div>
           <div id='nav-middle'>
-            Search Input Here
+            <search-input></search-input>
           </div>
           <div id='nav-end'>
             <a href="https://accounts.google.com">
