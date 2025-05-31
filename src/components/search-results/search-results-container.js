@@ -34,19 +34,15 @@ class SearchResultsContainer extends LitElement {
     searchTask = new Task(this, {
       task: async ([query], { signal }) => {
         if (!query) return;
-        console.log('Made it to')
         const searchResults = await getSearchResults(query, signal);
-        console.log('sr', searchResults)
         if (!searchResults) return
         const videoStatResults = await getVideoStatisticResults(getVideoIds(searchResults), signal);
-        console.log('vs', videoStatResults)
         return mapSearchResultsToStats(searchResults, videoStatResults);
       },
       args: () => [this.query],
     })
 
     renderSearchResults = (searchResults) => {
-      console.log('Is this being called?')
       if (searchResults.length === 0) {
         return html`<p>We were unable to find any videos for "${this.query}"</p>`;
       }
@@ -62,7 +58,6 @@ class SearchResultsContainer extends LitElement {
 
     render() {
       if (!this.query) {
-        console.log('Made it here!!!')
         return html`<welcome-message></welcome-message>`;
       }
 
