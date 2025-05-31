@@ -3,6 +3,7 @@ import { html, css, LitElement } from 'lit';
 class RoundButton extends LitElement {
     static properties = {
     showBorder: { type: Boolean },
+    eventName: { type: String },
   };
 
   static styles = css`
@@ -32,13 +33,23 @@ class RoundButton extends LitElement {
   constructor() {
     super();
     this.showBorder = false;
+    this.eventName = '';
+  }
+
+  handleClick() {
+    this.dispatchEvent(
+      new CustomEvent(this.eventName, {
+        bubbles: true,
+        composed: true,
+      })
+    );
   }
 
  render() {
     const classes = this.showBorder ? 'with-border' : '';
 
     return html`
-      <button class=${classes}>
+      <button class=${classes} @click=${this.handleClick}>
         <slot></slot>
       </button>
     `;

@@ -2,6 +2,9 @@ import { html, css, LitElement } from 'lit';
 
 class WelcomeMessage extends LitElement {
   static styles = css`
+    :host {
+        margin-left: -66px;
+    }
     #head {
       font-size: 24px;
       font-weight: bold;

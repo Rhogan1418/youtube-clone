@@ -53,7 +53,7 @@ export class Navbar extends LitElement {
       <div id='navbar'> 
         <div id='nav-container'>
           <div id='nav-start'>
-            <round-button>
+            <round-button eventName='nav-hamburger-click'>
                 <img height="24px" id="hamburger-menu" src=${hamburgerMenuIcon} />
             </round-button>                
             <a href="https://www.youtube.com">

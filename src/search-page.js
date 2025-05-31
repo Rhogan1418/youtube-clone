@@ -4,7 +4,8 @@ import './components/search-results/search-results-container.js';
 import './components/drawer/side-drawer.js';
 
 export class SearchPage extends LitElement {
-  static properties() {
+  static properties = {
+    toggleDrawer: { type: Boolean }
   }
 
   static styles = css`
@@ -24,13 +25,19 @@ export class SearchPage extends LitElement {
 
    constructor() {
     super()
+    this.toggleDrawer = false;
+    this.addEventListener('nav-hamburger-click', this.handleHamburgerClick);
+  }
+
+   handleHamburgerClick(e) {
+    this.toggleDrawer = !this.toggleDrawer;
   }
 
   render() {
     return html`
       <nav-bar></nav-bar>
       <div id="page-content">
-        <side-drawer></side-drawer>
+        <side-drawer .toggleDrawer=${this.toggleDrawer}></side-drawer>
         <search-results-container></search-results-container>
       </div>
     `
