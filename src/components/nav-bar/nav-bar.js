@@ -2,7 +2,7 @@ import { html, css, LitElement } from 'lit';
 import hamburgerMenuIcon from '../../assets/hamburger-menu.svg';
 import personOutlineIcon from '../../assets/person-circle-outline.svg';
 import youtubeLogo from '../../assets/youtube-logo.svg';
-
+import '../button/round-button.js';
 
 export class Navbar extends LitElement {
 
@@ -43,21 +43,6 @@ export class Navbar extends LitElement {
     a {
         text-decoration: none;
     }
-
-    button {
-      background-color: transparent;
-      color: #f1f1f1;
-      border: 1px solid transparent;
-      padding: 0.5rem;
-      border-radius: 40px;
-      height: 40px;
-      min-width: 40px;
-      cursor: pointer;
-      gap: 0.5rem; 
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
   `;
 
   render() {
@@ -65,9 +50,9 @@ export class Navbar extends LitElement {
       <div id='navbar'> 
         <div id='nav-container'>
           <div id='nav-start'>
-            <button>
+            <round-button>
                 <img height="24px" id="hamburger-menu" src=${hamburgerMenuIcon} />
-            </button>                
+            </round-button>                
             <a href="https://www.youtube.com">
               <img id="logo" width="93px" height="20px" src=${youtubeLogo} />
             </a>
@@ -77,10 +62,10 @@ export class Navbar extends LitElement {
           </div>
           <div id='nav-end'>
             <a href="https://accounts.google.com">
-              <button>
+              <round-button showBorder>
                 <img height="24px" id="person-circle-outline" src=${personOutlineIcon} />
                 Sign in
-              </button> 
+              </round-button> 
             </a>
           </div>
         </div>
