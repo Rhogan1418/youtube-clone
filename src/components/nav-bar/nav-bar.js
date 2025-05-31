@@ -19,7 +19,7 @@ export class Navbar extends LitElement {
     #nav-container {
       display: flex;
       width: 100%;
-      padding: 0 12px;
+      padding: 0 10px;
 
       div {
         display: flex;
@@ -34,6 +34,7 @@ export class Navbar extends LitElement {
 
     #nav-start {
       width: 15%;
+	  
     }
 
     #nav-middle {
@@ -42,6 +43,7 @@ export class Navbar extends LitElement {
     }
 
     a {
+		display: flex;
         text-decoration: none;
     }
   `;

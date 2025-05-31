@@ -1,6 +1,8 @@
-import { LitElement, html, css } from 'lit'
-import './components/nav-bar/nav-bar.js'
-import './components/search-results/search-results-container.js'
+import { LitElement, html, css } from 'lit';
+import './components/nav-bar/nav-bar.js';
+import './components/search-results/search-results-container.js';
+import './components/drawer/side-drawer.js';
+
 export class SearchPage extends LitElement {
   static properties() {
   }
@@ -12,6 +14,11 @@ export class SearchPage extends LitElement {
       width: 100%;
       height: 100vh;
       background-color: #0f0f0f;
+      padding: 0 4px;
+    }
+
+    #page-content {
+      display: flex;
     }
   `;
 
@@ -22,7 +29,10 @@ export class SearchPage extends LitElement {
   render() {
     return html`
       <nav-bar></nav-bar>
-      <search-results-container></search-results-container>
+      <div id="page-content">
+        <side-drawer></side-drawer>
+        <search-results-container></search-results-container>
+      </div>
     `
   }
 }
