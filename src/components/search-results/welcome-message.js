@@ -7,7 +7,7 @@ class WelcomeMessage extends LitElement {
     }
     #head {
       font-size: 24px;
-      font-weight: bold;
+      font-weight: 600;
       color: #f1f1f1;
       padding-bottom: 10px;
     }

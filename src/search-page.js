@@ -5,7 +5,8 @@ import './components/drawer/side-drawer.js';
 
 export class SearchPage extends LitElement {
   static properties = {
-    toggleDrawer: { type: Boolean }
+    toggleDrawer: { type: Boolean },
+    query: { type: String },
   }
 
   static styles = css`
@@ -14,7 +15,6 @@ export class SearchPage extends LitElement {
       flex-direction: column;
       width: 100%;
       height: 100vh;
-      background-color: #0f0f0f;
       padding: 0 4px;
     }
 
@@ -26,11 +26,17 @@ export class SearchPage extends LitElement {
    constructor() {
     super()
     this.toggleDrawer = false;
+    this.query = '';
     this.addEventListener('nav-hamburger-click', this.handleHamburgerClick);
+    this.addEventListener('search-click', this.handleSearchClick);
   }
 
-   handleHamburgerClick(e) {
+   handleHamburgerClick() {
     this.toggleDrawer = !this.toggleDrawer;
+  }
+
+  handleSearchClick(e) {
+    this.query = e.detail.query;
   }
 
   render() {
@@ -38,7 +44,7 @@ export class SearchPage extends LitElement {
       <nav-bar></nav-bar>
       <div id="page-content">
         <side-drawer .toggleDrawer=${this.toggleDrawer}></side-drawer>
-        <search-results-container></search-results-container>
+        <search-results-container .query=${this.query}></search-results-container>
       </div>
     `
   }
