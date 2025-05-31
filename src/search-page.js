@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit'
 
-export class LandingPage extends LitElement {
+export class SearchPage extends LitElement {
   static properties() {
   }
 
@@ -23,4 +23,4 @@ export class LandingPage extends LitElement {
   }
 }
 
-window.customElements.define('landing-page', LandingPage)
+window.customElements.define('search-page', SearchPage)
