@@ -51,8 +51,9 @@ export class Navbar extends LitElement {
     }
 
     a {
-		display: flex;
+		    display: flex;
         text-decoration: none;
+        cursor: pointer;
     }
 
     #mobile-mag  {

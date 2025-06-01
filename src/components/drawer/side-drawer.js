@@ -9,15 +9,12 @@ class SideDrawer extends LitElement {
   }
 
   static styles = css`
-    :host {
-      height: 100vh;
-    }
-
     #container {
       width: fit-content;
       display: flex;
       flex-direction: column;
       gap: 20px;
+      height: 100vh;
     }
 
     #container.open {

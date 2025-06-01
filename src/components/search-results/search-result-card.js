@@ -28,9 +28,10 @@ class SearchResultCard extends LitElement {
         font-size: 12px;
         color: #ffffff95;
         margin-bottom: 20px;
-        line-height: 18px
+        line-height: 18px;
       }
     }
+
 
     .video-title {
       margin: 0;
@@ -46,7 +47,27 @@ class SearchResultCard extends LitElement {
 
     a {
       text-decoration: none;
-      color: #ffffff
+      color: #ffffff;
+    }
+
+    @media (max-width: 600px) {
+      :host {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+
+      }
+      .video-description {
+        display: none;
+      }
+
+      .video-container {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        gap: 4px;
+      }
+
     }
   `;
 
@@ -68,7 +89,7 @@ class SearchResultCard extends LitElement {
             <h2 class="video-title">${title}</h2>
           </a>
           <div class="video-statistics">${commentCount} ${Number(commentCount) === 1 ? 'Comment' : 'Comments'}</div>
-          <div class="video-subtitle">${description}</div>
+          <div class="video-description">${description}</div>
         </div>
       </div>
     `;

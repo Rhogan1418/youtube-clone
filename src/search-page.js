@@ -13,6 +13,7 @@ export class SearchPage extends LitElement {
     :host {
       width: 100%;
       padding: 0 4px;
+      height: 100vh;
     }
 
     #page-content {
