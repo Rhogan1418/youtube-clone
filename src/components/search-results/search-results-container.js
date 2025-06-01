@@ -21,7 +21,8 @@ class SearchResultsContainer extends LitElement {
     sortBy: {type: String},
     totalPages: { type: String },
     pageToken: { type: String },
-    currentPageNumber: {type: Number}
+    currentPageNumber: {type: Number},
+    showPagination: {type: Boolean}
   }
 
   static styles = css`
@@ -46,6 +47,10 @@ class SearchResultsContainer extends LitElement {
         align-items: end;
         width: 100%;
       }
+
+      p {
+        text-align: center;
+      }
   `
 
   constructor() {
@@ -53,6 +58,7 @@ class SearchResultsContainer extends LitElement {
     this.query = '';
     this.sortBy = 'relevance';
     this.options = SORT_OPTIONS;
+    this.showPagination = false;
 
     this.pageToken = '';
     this.totalPages = '';
@@ -78,6 +84,7 @@ class SearchResultsContainer extends LitElement {
       this.nextPageToken = result.nextPageToken;
       this.prevPageToken = result.prevPageToken;
       this.totalPages = result.totalPages;
+      this.showPagination = true;
     }
   })
 
@@ -120,6 +127,16 @@ class SearchResultsContainer extends LitElement {
     this.sortBy = e.detail.value;
   }
 
+  handleSearchError = (reasons) => {
+    this.showPagination = false;
+    if (reasons.includes('quotaExceeded')) {
+      return html`<p>YouTube API quota exceeded. Please try again later.</p>`;
+    } else if (reasons.includes('API_KEY_INVALID')) {
+      return html`<p>It looks like there is an issue with your API key. Either it is invalid or it was never added to the environment.</p>`;
+    }
+    return html`<p>Something went wrong. Try again soon.</p>`;
+  };
+
   render() {
       if (!this.query) {
         return html`<welcome-message></welcome-message>`;
@@ -131,22 +148,17 @@ class SearchResultsContainer extends LitElement {
                       ${this.searchTask.render({
                         pending: () => html`<search-results-skeleton count="5"></search-results-skeleton>`,
                         complete: this.renderSearchResults,
-                        error: (reasons) => {
-                          if (reasons.includes('quotaExceeded')) {
-                             return html`<p>YouTube API quota exceeded. Please try again later.</p>`;
-                          } else if (reasons.includes('API_KEY_INVALID')) {
-                            return html`<p>It looks like there is an issue with your API key. Either it is invalid or it was never added to the environment.</p>`;
-                          }
-                          return html`<p>Something went wrong. Try again soon.</p>`;
-                        }
+                        error: this.handleSearchError
                       })}
                       </div>
-                     <pagination-section 
-                      .currentPageNumber=${this.currentPageNumber} 
-                      .totalPages=${this.totalPages} 
-                      .hasPrevPage=${!!this.prevPageToken} 
-                      .hasNextPage=${!!this.nextPageToken}>
-                    </pagination-section>
+                      ${this.showPagination ? html`
+                        <pagination-section 
+                          .currentPageNumber=${this.currentPageNumber} 
+                          .totalPages=${this.totalPages} 
+                          .hasPrevPage=${!!this.prevPageToken} 
+                          .hasNextPage=${!!this.nextPageToken}>
+                        </pagination-section>
+                      ` : null}
                   </div>
       `
     }
