@@ -13,94 +13,65 @@ export class Navbar extends LitElement {
   };
   
   static styles = css`
-    #navbar {
-      width: 100%;
-      background-color: transparent;
-      height: 60px;
-      display: flex;
-      align-items: center;
-    }
+  :host {
+    display: block;
+    width: 100%;
+  }
 
-    #nav-container {
-      display: flex;
-      width: 100%;
-      padding: 0 10px;
-      justify-content: space-between
-    }
-    
-    #nav-end {
-      display: flex;
-      justify-content: end;
-      flex: 1;
-      gap: 12px;
-    }
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 60px;
+    background-color: transparent;
+  }
 
-    #nav-start {
-      gap: 12px;
-      display: flex;
-      flex: 1;
-      align-items: center;
-    }
+  #nav-start,
+  #nav-end {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
 
+  #nav-end {
+    justify-content: end;
+  }
+
+  #nav-middle {
+    margin: 0 12px;
+    width: 100%;
+  }
+
+  a {
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #arrow {
+    font-size: 20px;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  #back-button, #mobile-mag {
+    display: none;
+  }
+
+  @media (max-width: 760px) {
     #nav-middle {
+      display: none;
+    }
+
+    #nav-middle.active, #back-button.active, #mobile-mag {
       display: flex;
-      width: 100%;
-      margin: 0 12px;
-      /* flex: 1; */
-      justify-content: center;
     }
+  }
+`;
 
-    a {
-		    display: flex;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    #mobile-mag  {
-      display: none;
-    }
-
-    #back-button {
-      display: none;
-    }
-
-    #arrow {
-      font-size: 20px;
-    }
-
-    @media (max-width: 600px) {
-      #nav-middle {
-        display: none;
-      }
-      #nav-start {
-        width:100%;
-      }
-      #nav-end {
-        width: 100%;
-        
-      }
-      #mobile-mag {
-        display: block;
-      }
-
-      #back-button.active {
-        display: block;
-      }
-      
-      #nav-end.hidden {
-        display: none;
-      }
-
-      .hidden {
-        display: none;
-      }
-
-      #nav-middle.active {
-        display: flex;
-      }
-
-    }
-  `;
 
   constructor() {
     super();
@@ -120,13 +91,12 @@ export class Navbar extends LitElement {
     const navMiddleClass = this.showSearch ? 'active' : '';
     return html`
       <div id='navbar'> 
-        <div id='nav-container'>
           <div id='nav-start'>
-            <round-button id="back-button" class=${navMiddleClass} @click=${this.handleBackClick}><span id="arrow">&#11013;</span></round-button>
-            <round-button class=${classes} eventName='nav-hamburger-click'>
+            <round-button id="back-button" aria-label="Back to main nav" class=${navMiddleClass} @click=${this.handleBackClick}><span id="arrow">&#11013;</span></round-button>
+            <round-button class=${classes} aria-label="Open Menu" eventName='nav-hamburger-click'>
                 <img height="24px" id="hamburger-menu" src=${hamburgerMenuIcon} />
             </round-button>                
-            <a class=${classes} id="https://www.youtube.com">
+            <a class=${classes} aria-label="Go to YouTube homepage" href="https://www.youtube.com">
               <img id="logo" width="93px" height="20px" src=${youtubeLogo} />
             </a>
           </div>
@@ -134,15 +104,14 @@ export class Navbar extends LitElement {
             <search-input></search-input>
           </div>
           <div id='nav-end' class=${classes}>
-            <round-button id="mobile-mag" @click=${this.handleSearchButtonClick}><img height="20px" src=${magGlass} /></round-button>
-            <a href="https://accounts.google.com">
+            <round-button id="mobile-mag" aria-label="Open Search" @click=${this.handleSearchButtonClick}><img height="20px" src=${magGlass} /></round-button>
+            <a href="https://accounts.google.com" aria-label="Go to YouTube sign in page">
               <round-button showBorder>
                 <img height="24px" id="person-circle-outline" src=${personOutlineIcon} />
                 Sign in
               </round-button> 
             </a>
           </div>
-        </div>
     </div>`;
   }
 }

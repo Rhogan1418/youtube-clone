@@ -47,6 +47,27 @@ class SearchResultsSkeleton extends LitElement {
       border-radius: 10px;
       background-color: #ffffff10;
     }
+
+     @media (max-width: 760px) {
+      :host {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+
+      }
+      .video-description {
+        display: none;
+      }
+
+      .video-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+        gap: 4px;
+      }
+
+    }
   `;
 
   constructor() {

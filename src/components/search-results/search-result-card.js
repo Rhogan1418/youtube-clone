@@ -23,15 +23,12 @@ class SearchResultCard extends LitElement {
       gap: 16px;
     }
 
-    .video-details {
-      div {
-        font-size: 12px;
-        color: #ffffff95;
-        margin-bottom: 20px;
-        line-height: 18px;
-      }
+    .video-description, .video-statistics {
+      font-size: 12px;
+      color: #ffffff95;
+      margin-bottom: 20px;
+      line-height: 18px;
     }
-
 
     .video-title {
       margin: 0;
@@ -50,7 +47,7 @@ class SearchResultCard extends LitElement {
       color: #ffffff;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 760px) {
       :host {
         display: flex;
         justify-content: center;
@@ -64,7 +61,7 @@ class SearchResultCard extends LitElement {
       .video-container {
         display: flex;
         flex-direction: column;
-        width: 320px;
+        max-width: 320px;
         gap: 4px;
       }
 

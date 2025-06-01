@@ -18,7 +18,6 @@ class SearchInput extends LitElement {
       height: 36px;
       outline: none;
       padding-left: 20px;
-      color: #f1f1f1;
     }
 
     input:focus {
@@ -88,9 +87,9 @@ class SearchInput extends LitElement {
   render() {
     return html`
       <div id="search-wrapper">
-          <input placeholder="Search" .value=${this.query} @input=${this.updateValue} @keydown=${this.handleOnKeyDown}/>
+          <input placeholder="Search" aria-label="Search" .value=${this.query} @input=${this.updateValue} @keydown=${this.handleOnKeyDown}/>
           ${this.query && html`<span class="clear-icon" @click=${this.clearInput}>&#10005;</span>`}
-          <button @click=${this.handleSearch}><img height="20px" src=${magGlass}></button>
+          <button aria-label="Submit search" @click=${this.handleSearch}><img height="20px" src=${magGlass}></button>
       </div>
     `  
   }

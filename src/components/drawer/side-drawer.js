@@ -14,12 +14,14 @@ class SideDrawer extends LitElement {
       display: flex;
       flex-direction: column;
       gap: 20px;
-      height: 100vh;
+      background-color: #0f0f0f;
     }
 
     #container.open {
       width: 200px;
       padding-right: 23px;
+      height: 100%;
+      display: flex;
 
       .icon-with-text {
         flex-direction: row;
@@ -29,15 +31,6 @@ class SideDrawer extends LitElement {
         gap: 20px;
         width: 100%;
       }
-    }
-
-    .icon-with-text {
-      display: flex;
-      flex-direction: column;
-      font-size: 10px;
-      gap:4px;
-      color: #f1f1f1;
-      text-decoration: none;
     }
 
     .icon-with-text {
@@ -57,17 +50,11 @@ class SideDrawer extends LitElement {
       background-color: #ffffff1a;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 760px) {
       #container {
         position: absolute;
-        background-color: #0f0f0f;
         display: none;
       }
-
-      #container.open {
-        display: flex;
-      }
-
     }
   `;      
 
@@ -76,9 +63,9 @@ class SideDrawer extends LitElement {
     this.toggleDrawer = false;
   }
 
-  renderLink = (label, iconSrc, href) => 
-    html`<a href=${href} class="icon-with-text">
-            <img height="24px" src=${iconSrc} alt=${label} />
+  sideDrawerLink = (label, iconSrc, href, ariaLabel) => 
+    html`<a href=${href} class="icon-with-text" aria-label=${ariaLabel}>
+            <img height="24px" src=${iconSrc} alt=""/>
             <div>${label}</div>
         </a>
     `
@@ -86,9 +73,9 @@ class SideDrawer extends LitElement {
   render() {
     return html`
       <div id='container' class=${this.toggleDrawer ? 'open' : ''}>
-        ${this.renderLink('Home', HomeIcon, 'https://www.youtube.com')}
-        ${this.renderLink('Shorts', ShortsIcon, 'https://www.youtube.com/shorts')}
-        ${this.renderLink('Subscriptions', SubscriptionIcon, 'https://www.youtube.com/feed/subscriptions')}
+        ${this.sideDrawerLink('Home', HomeIcon, 'https://www.youtube.com', 'Go to YouTube homepage')}
+        ${this.sideDrawerLink('Shorts', ShortsIcon, 'https://www.youtube.com/shorts', 'Go to YouTube shorts')}
+        ${this.sideDrawerLink('Subscriptions', SubscriptionIcon, 'https://www.youtube.com/feed/subscriptions', 'Go to YouTube subscriptions')}
       </div>
     `;
   }

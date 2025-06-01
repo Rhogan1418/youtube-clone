@@ -30,7 +30,7 @@ class WelcomeMessage extends LitElement {
 
       
     }
-    @media (max-width: 600px) {
+    @media (max-width: 760px) {
         :host {
           margin-left: 0;
         }

@@ -16,7 +16,6 @@ class SelectFilter extends LitElement {
 
     select {
       background-color: transparent;
-      color: #f1f1f1;
       border-radius: 20px;
       border: 1px solid #ffffff80;
       padding: 10px 22px 10px 20px;

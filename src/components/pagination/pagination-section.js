@@ -20,6 +20,7 @@ class PaginationSection extends LitElement {
 
   constructor() {
     super();
+    this.totalPage = 1;
     this.currentPageNumber = 1;
     this.hasPrevPage = false;
     this.hasNextPage = false;
@@ -27,20 +28,23 @@ class PaginationSection extends LitElement {
 
   render() {
     return html`
-        <round-button 
-            ?disabled=${!this.hasPrevPage} 
-            showBorder width=${100} 
-            eventName="prev-click"
-            >
-            Previous
+        <round-button
+          ?disabled=${!this.hasPrevPage} 
+          showBorder width=${100} 
+          eventName="prev-click"
+          aria-label="Previous page"
+        >
+          Previous
         </round-button>
         <p>Page ${this.currentPageNumber} of ${this.totalPages}</p>
         <round-button 
-            ?disabled=${!this.hasNextPage} 
-            showBorder 
-            width=${100} 
-            eventName="next-click">
-            Next
+          ?disabled=${!this.hasNextPage} 
+          showBorder 
+          width=${100} 
+          eventName="next-click"
+          aria-label="Next page"
+        >
+          Next
         </round-button>
     `;
   }

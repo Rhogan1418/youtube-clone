@@ -5,7 +5,8 @@ class RoundButton extends LitElement {
     disabled: {type: Boolean},
     showBorder: { type: Boolean },
     eventName: { type: String },
-    width: { type: Number }
+    width: { type: Number },
+    ariaLabel: { type: String }
   };
 
   static styles = css`
@@ -44,11 +45,15 @@ class RoundButton extends LitElement {
     super();
     this.disabled = false;
     this.showBorder = false;
+    this.ariaLabel = '';
     this.eventName = '';
     this.width = null;
   }
 
   handleClick() {
+    if (!this.eventName) {
+      return;
+    }
     this.dispatchEvent(
       new CustomEvent(this.eventName, {
         bubbles: true,
@@ -59,12 +64,13 @@ class RoundButton extends LitElement {
 
  render() {
   const style = this.width ? `width: ${this.width}px` : '';
+  const classes = this.showBorder ? 'with-border' : '';
 
-    return html`
-      <button class=${`${this.showBorder ? 'with-border' : ''}`} style=${style} @click=${this.handleClick} ?disabled=${this.disabled} >
-        <slot></slot>
-      </button>
-    `;
+  return html`
+    <button class=${classes} style=${style} @click=${this.handleClick} ?disabled=${this.disabled} aria-label=${this.ariaLabel}>
+      <slot></slot>
+    </button>
+  `;
   }
 }
 
