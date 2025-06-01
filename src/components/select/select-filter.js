@@ -8,6 +8,13 @@ class SelectFilter extends LitElement {
   };
 
   static styles = css`
+    :host {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+    }
+
     select {
       background-color: transparent;
       color: #f1f1f1;
@@ -22,8 +29,9 @@ class SelectFilter extends LitElement {
 
     .select-wrapper {
       position: relative;
-      display: inline-block;
-      width: 200px; /* or adjust as needed */
+      display: flex;
+      width: 200px;
+      
     }
 
      .arrow {
@@ -37,6 +45,10 @@ class SelectFilter extends LitElement {
       border-left: 5px solid transparent;
       border-right: 5px solid transparent;
       border-top: 6px solid #fff;
+    }
+
+    label {
+      white-space: nowrap
     }
   `;
 
@@ -60,6 +72,7 @@ class SelectFilter extends LitElement {
 
  render() {
     return html`
+      <label>Sort by:</label>
       <div class="select-wrapper">
         <select name=${this.name} .value=${this.value} @change=${this.handleChange}>
           ${this.options.map((option) => html`<option .value=${option.value}>${option.name}</option>`)}

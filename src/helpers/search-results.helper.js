@@ -2,8 +2,9 @@ export const getVideoIds = (searchResults) => {
     return searchResults.map((searchResult) => searchResult.videoId);
 }
 
-export const mapSearchRequestResults = (searchRequestList) => 
-    searchRequestList.map((listItem) => {
+export const mapSearchRequestResults = (searchRequestData) => {
+    const { nextPageToken, pageInfo, items, prevPageToken } = searchRequestData;
+    const result = items.map((listItem) => {
         const {title, description, thumbnails } = listItem.snippet;
 
         return {
@@ -12,7 +13,15 @@ export const mapSearchRequestResults = (searchRequestList) =>
             title: decodeHtml(title),
             description: decodeHtml(description)
         }
-    }); 
+    })
+
+    return {
+        nextPageToken, 
+        prevPageToken,
+        totalPages: Math.ceil(pageInfo.totalResults / pageInfo.resultsPerPage).toLocaleString(),  
+        items: result
+    }
+}; 
 
 export const mapVideoStatResults = (searchRequestList) => 
     searchRequestList.map((listItem) => ({
@@ -21,12 +30,15 @@ export const mapVideoStatResults = (searchRequestList) =>
         commentCount: Number(listItem.statistics.commentCount || 0).toLocaleString()
     }));
 
-export const mapSearchResultsToStats = (searchResults, videoStatResults) => 
-    searchResults.map((searchResult) => {
+export const mapSearchResultsToStats = (searchResults, videoStatResults) => {
+    const result = searchResults.items.map((searchResult) => {
         const videoResult = videoStatResults.find((statResult) => statResult.videoId === searchResult.videoId);
 
         return {...searchResult, ...videoResult}
-});
+    });
+    return { ...searchResults, items:result };
+
+}
 
 const decodeHtml = (html = '') => {
     const txt = document.createElement('textarea');

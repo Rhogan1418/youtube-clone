@@ -1,5 +1,4 @@
 import { html, css, LitElement } from 'lit';
-import './welcome-message.js';
 
 class SearchResultCard extends LitElement {
   static properties = {
