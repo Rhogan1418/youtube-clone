@@ -16,8 +16,8 @@ export const mapSearchRequestResults = (searchRequestData) => {
     })
 
     return {
-        nextPageToken, 
-        prevPageToken,
+        nextPageToken: nextPageToken || null,
+        prevPageToken: prevPageToken || null,
         totalPages: Math.ceil(pageInfo.totalResults / pageInfo.resultsPerPage).toLocaleString(),  
         items: result
     }

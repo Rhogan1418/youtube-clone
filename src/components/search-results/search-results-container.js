@@ -56,8 +56,8 @@ class SearchResultsContainer extends LitElement {
 
     this.pageToken = '';
     this.totalPages = '';
-    this.nextPageToken;
-    this.prevPageToken;
+    this.nextPageToken = null;
+    this.prevPageToken = null;
     this.currentPageNumber = 1;
   
     this.addEventListener('select-filter-change', this.handleSortByChange);
