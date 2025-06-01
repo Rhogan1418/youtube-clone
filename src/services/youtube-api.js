@@ -9,7 +9,7 @@ export const getSearchResults = async (query, sortBy, signal) => {
     const data = await res.json();
 
     if (data.error) {
-        throw new Error(data.error.errors?.[0]?.reason || 'unknownError');
+       handleErrors(data.error);
     }
 
     console.log(data)
@@ -21,10 +21,16 @@ export const getVideoStatisticResults = async (videoIdList, signal) => {
     const data = await res.json();
 
     if (data.error) {
-        throw new Error(data.error.errors?.[0]?.reason || 'unknownError');
+        handleErrors(data.error);
     }
 
     return mapVideoStatResults(data.items);
 }
+
+const handleErrors = (error) => {
+  const reasonsFromErrors = error?.errors?.map((e) => e.reason) || [];
+  const reasonsFromDetails = error?.details?.map((d) => d.reason ) || [];
+  throw [...reasonsFromErrors, ...reasonsFromDetails];
+};
 
   

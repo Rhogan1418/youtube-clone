@@ -94,9 +94,12 @@ class SearchResultsContainer extends LitElement {
                       ${this.searchTask.render({
                         pending: () => html`<search-results-skeleton count="5"></search-results-skeleton>`,
                         complete: this.renderSearchResults,
-                        error: (e) => {
-                          if (e.message === 'quotaExceeded') {
-                            return html`<p>YouTube API quota exceeded. Please try again later.</p>`;
+                        error: (reasons) => {
+                          console.log('There Were errros', reasons)
+                          if (reasons.includes('quotaExceeded')) {
+                             return html`<p>YouTube API quota exceeded. Please try again later.</p>`;
+                          } else if (reasons.includes('API_KEY_INVALID')) {
+                            return html`<p>It looks like there is an issue with your API key. Either it is invalid or it was never added to the environment.</p>`;
                           }
                           return html`<p>Something went wrong. Try again soon.</p>`;
                         }
