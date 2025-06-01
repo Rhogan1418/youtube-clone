@@ -4,7 +4,6 @@ class SelectFilter extends LitElement {
     static properties = {
     options: { type: Array },
     value: { type: String },
-    name: { type: String },
   };
 
   static styles = css`
@@ -30,11 +29,10 @@ class SelectFilter extends LitElement {
     .select-wrapper {
       position: relative;
       display: flex;
-      width: 200px;
-      
+      width: 200px;      
     }
 
-     .arrow {
+    .arrow {
       position: absolute;
       top: 50%;
       right: 62px;
@@ -57,24 +55,23 @@ class SelectFilter extends LitElement {
     this.eventName = '';
     this.options = [];
     this.value = '';
-    this.name = '';
   }
 
-   handleChange(event) {
-      this.value = event.target.value;
+  handleChange(event) {
+    this.value = event.target.value;
 
-      this.dispatchEvent(new CustomEvent('select-filter-change', {
-        detail: { value: this.value },
-        bubbles: true,
-        composed: true
-      }));
-    }
+    this.dispatchEvent(new CustomEvent('select-filter-change', {
+      detail: { value: this.value },
+      bubbles: true,
+      composed: true
+    }));
+  }
 
  render() {
     return html`
       <label>Sort by:</label>
       <div class="select-wrapper">
-        <select name=${this.name} .value=${this.value} @change=${this.handleChange}>
+        <select .value=${this.value} @change=${this.handleChange}>
           ${this.options.map((option) => html`<option .value=${option.value}>${option.name}</option>`)}
         </select>
         <div class="arrow"></div>
