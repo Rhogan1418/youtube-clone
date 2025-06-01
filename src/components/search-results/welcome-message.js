@@ -27,6 +27,14 @@ class WelcomeMessage extends LitElement {
         margin: 0;
         color: #ffffff80;
       }
+
+      
+    }
+    @media (max-width: 600px) {
+        :host {
+          margin-left: 0;
+        }
+
     }
   `;
 

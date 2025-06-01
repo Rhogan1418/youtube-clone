@@ -7,11 +7,14 @@ class SearchInput extends LitElement {
   };
 
   static styles = css`
+    :host {
+      width: 100%;
+    }
     input {
       background-color: transparent;
       border: 1px solid #303030;
       border-radius: 40px 0 0 40px;
-      width: 400px;
+      width: 100%;
       height: 36px;
       outline: none;
       padding-left: 20px;
@@ -33,8 +36,10 @@ class SearchInput extends LitElement {
     }
 
     #search-wrapper {
-      position: relative;
       display: flex;
+      max-width: 600px;
+      margin: 0 auto;
+      position: relative;
     }
 
     .clear-icon {

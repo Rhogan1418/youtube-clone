@@ -11,10 +11,7 @@ export class SearchPage extends LitElement {
 
   static styles = css`
     :host {
-      display: flex;
-      flex-direction: column;
       width: 100%;
-      height: 100vh;
       padding: 0 4px;
     }
 

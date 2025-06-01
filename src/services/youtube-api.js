@@ -18,7 +18,8 @@ export const getSearchResults = async (query, sortBy, pageToken, signal) => {
         params.set('pageToken', pageToken);
     }
     
-    const res = await fetch(`${API_BASE}/search?${params.toString()}`, { signal });
+    // const res = await fetch(`${API_BASE}/search?${params.toString()}`, { signal });
+    const res = await fetch(`/mock-data/search-request-relevance.json`);
     const data = await res.json();
 
     if (data.error) {
@@ -35,7 +36,9 @@ export const getVideoStatisticResults = async (videoIdList, signal) => {
         key: API_KEY
     });
     
-    const res = await fetch(`${API_BASE}/videos?${params.toString()}`, { signal });
+    // const res = await fetch(`${API_BASE}/videos?${params.toString()}`, { signal });
+    const res = await fetch(`/mock-data/video-stat-request.json`);
+
     const data = await res.json();
 
     if (data.error) {
