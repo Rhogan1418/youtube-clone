@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "snxw9NNx6kmhqGvLooBw_A1ZU40",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uVcgxKTR1kwpse-8Q1oXcK7HP_M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "elqfX61bBq8"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-26T09:52:45Z",
+        "channelId": "UCf3-M7pW4GKbr5jGm2KLjRA",
+        "title": "🔴 24 Hours of Dog Music🎵Dog TV &amp; Best Fun Entertainment for Bored Dogs",
+        "description": "24 Hours of Dog Music  Dog TV & Best Fun Entertainment for Bored Dogs｜Anti-Anxiety Music for Dogs (  You can turn the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/elqfX61bBq8/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/elqfX61bBq8/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/elqfX61bBq8/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loneliness",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-05-26T09:52:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YuE-9oPVKIU_Y-prLosOquI-vB8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NIYLO-n-vLs"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T14:21:31Z",
+        "channelId": "UCXo4tjyjVydwOaAq59ya1Ag",
+        "title": "🔴24 Hours of Dog TV🎵🐶Calming Sleep Music for Dogs🐾🩷Soothing Music for Dogs with Separation Anxiety",
+        "description": "24 Hours of Dog TV    Calming Sleep Music for Dogs    Soothing Music for Dogs with Separation Anxiety Sweet Pet Music ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NIYLO-n-vLs/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NIYLO-n-vLs/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NIYLO-n-vLs/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sweet Pet Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-05-31T14:21:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AJbIDNGfTO6HeF7cfIeh4TGXC88",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cHRueo3HN0Y"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-26T01:30:00Z",
+        "channelId": "UCJb_wdBU-TzyJHvmGgQj5bQ",
+        "title": "12 Hours Calming Dog Music🎵Calming Music for Dogs with Anxiety🐶🎵Dog Sleep Music for Dog Relaxation🐶",
+        "description": "12 Hours Calming Dog Music  Calming Music for Dogs with Anxiety    Dog Sleep Music for Dog Relaxation   Welcome to Pet ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cHRueo3HN0Y/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cHRueo3HN0Y/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cHRueo3HN0Y/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Pet Calming Music & Sleep",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-05-26T01:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "autZfn33x-vKZYBAvR8Zd0lzIiY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pdWEn_JH-Og"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T07:13:20Z",
+        "channelId": "UCV93iZsSD4O-dn-swt0hS7A",
+        "title": "#pug #pugsofinstagram #puglife #puglove #pugs #dog #dogsofinstagram #pugstagram #dogs #pugpuppy",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pdWEn_JH-Og/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pdWEn_JH-Og/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pdWEn_JH-Og/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Bonus",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-31T07:13:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "clMLCzXHSS2xZYu7LQogPial5rU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2f-3fNM1pFg"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T00:03:10Z",
+        "channelId": "UC_0X20s5VVUQJllk_S3FCPQ",
+        "title": "🔴[LIVE] Dog Music🎵🐶Calming Music for Dogs🐶💖Calms Separation Anxiety 🦮Relaxing Music for Sleep🔴21",
+        "description": "[LIVE] Dog Music    Calming Music for Dogs    Calms Separation Anxiety Relaxing Music for Sleep  21 Introducing ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2f-3fNM1pFg/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2f-3fNM1pFg/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2f-3fNM1pFg/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HealingMate - Dog Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-05-31T00:03:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iPOkdxyeLd0N3yTv5qXbXE8D5LI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ff24B5rtkuc"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T05:56:13Z",
+        "channelId": "UCXo4tjyjVydwOaAq59ya1Ag",
+        "title": "🔴24 Hours of Dog TV🎵🐶Soothing Sleep Music for Dogs🐾🩷Relaxing Dog Music for Separation Stress Relief",
+        "description": "24 Hours of Dog TV    Soothing Sleep Music for Dogs    Relaxing Dog Music for Separation Stress Relief Sweet Pet Music ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ff24B5rtkuc/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ff24B5rtkuc/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ff24B5rtkuc/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sweet Pet Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-05-31T05:56:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PNYq2Z7SQuWwtgZswypF603kYsw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "F7BPlC1mOwY"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-24T06:08:44Z",
+        "channelId": "UCUUoHyacoxnzUJfnBAB4JGg",
+        "title": "DOG TV: Videos Help Fun &amp; Relax for Dogs Left Home Alone - Music to Keep Your Dogs Entertain All Day",
+        "description": "DOG TV: Videos Help Fun & Relax for Dogs Left Home Alone - Music to Keep Your Dogs Entertain All Day. Welcome to DOG TV ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F7BPlC1mOwY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F7BPlC1mOwY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F7BPlC1mOwY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Relax My Dog Music",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-24T06:08:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jTCrybkpaIV2bztRpkO-kBKIlbE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EGxJpOelc0w"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-14T18:39:44Z",
+        "channelId": "UCC17PDLl8y1dP2BRV5vuseg",
+        "title": "This Is How Dogs Get Smarter: Free Video Series Now Open",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EGxJpOelc0w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EGxJpOelc0w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EGxJpOelc0w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Dogs That",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-14T18:39:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zIWd7z3Xbb3OE76SVWwxZTHtVGY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rrNY3A1KF70"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T08:09:15Z",
+        "channelId": "UCM56_4BEpETCCnI5wbKNvfQ",
+        "title": "🔴[LIVE] Dog Music 🐶 Dog Calming Music 🎵💖 Dog Separation Anxiety Relief🎵Dog Soothing Sleep Music💖",
+        "description": "[LIVE] Dog Music Dog Calming Music Dog Separation Anxiety Relief  Dog Soothing Sleep Music   \"Dream Relax My ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rrNY3A1KF70/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rrNY3A1KF70/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rrNY3A1KF70/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Dream Relax My Dog",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-05-31T08:09:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "r1-htPUsAuKg1Q3fuvKcJB7N2ig",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JT8SVhT-Ywk"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T15:11:47Z",
+        "channelId": "UC_0X20s5VVUQJllk_S3FCPQ",
+        "title": "🔴[LIVE] Dog Music🎵🐶Calming Music for Dogs🐶💖Stress Relief for Dogs🦮Relaxing Music for Dog Sleep🔴7",
+        "description": "[LIVE] Dog Music    Calming Music for Dogs    Stress Relief for Dogs  Relaxing Music for Dog Sleep  7 Introducing ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JT8SVhT-Ywk/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JT8SVhT-Ywk/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JT8SVhT-Ywk/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HealingMate - Dog Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-05-31T15:11:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EKVku5_e4CH-lPDBPJd0-pfjZ2I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PVrIgYPgbtU"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-30T06:02:10Z",
+        "channelId": "UCUUoHyacoxnzUJfnBAB4JGg",
+        "title": "DOG TV for Dogs to Watch: Best Video Entertain &amp; Music to Relax Dogs When Home Alone - Music for Dog",
+        "description": "DOG TV for Dogs to Watch: Best Video Entertain & Music to Relax Dogs When Home Alone - Music for Dog. Welcome to DOG TV ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PVrIgYPgbtU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PVrIgYPgbtU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PVrIgYPgbtU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Relax My Dog Music",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-30T06:02:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CC0Eq7iqWhgSjt6KI2wIhvdicak",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ngWJTZS0YCI"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T14:15:39Z",
+        "channelId": "UC-ijf949Y4u4YQdfbQ2fJxg",
+        "title": "Pretty🥰 little🤏 brono🦁 #dog #dogs",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ngWJTZS0YCI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ngWJTZS0YCI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ngWJTZS0YCI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "My Smart Brono",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-31T14:15:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Byig3zuyTiPK_uqaUveyRGpNddE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-XFLdUSXvBg"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T04:54:30Z",
+        "channelId": "UCf3-M7pW4GKbr5jGm2KLjRA",
+        "title": "🔴24 Hours of Dog TV🎵🐶Calming Music to Help Dogs Sleep🐾🩷Relaxing Music for Anxiety and Stress Relief",
+        "description": "24 Hours of Dog TV    Calming Music to Help Dogs Sleep    Relaxing Music for Anxiety and Stress Relief Hello The Healing ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-XFLdUSXvBg/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-XFLdUSXvBg/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-XFLdUSXvBg/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loneliness",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-05-31T04:54:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "G_mACViprxB34TPMgvWlC0o4YEE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6pnIoVERk0g"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T21:00:01Z",
+        "channelId": "UCJZu7DVvEwegnoYp80mZlPw",
+        "title": "🐾#perrosabandonados #straydogs #trending #amor #perros #dogs #perro #dog #cachorros #puppy #puppies",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6pnIoVERk0g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6pnIoVERk0g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6pnIoVERk0g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Paws On The Streets \"Huellitas callejeras\"",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-31T21:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "So8kHakK3qYXN8ZfAYl3COaB-Zw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "b1y6S-Cakpk"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-30T11:04:18Z",
+        "channelId": "UCUUoHyacoxnzUJfnBAB4JGg",
+        "title": "DOG TV for Dogs to Watch: Video Entertain to Prevent Boredom for Dogs - Best Relax Music for Dogs",
+        "description": "DOG TV for Dogs to Watch: Video Entertain to Prevent Boredom for Dogs - Best Relax Music for Dogs. Welcome to DOG TV for ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/b1y6S-Cakpk/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/b1y6S-Cakpk/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/b1y6S-Cakpk/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Relax My Dog Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-05-30T11:04:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ApmnS4hfF0mJhmuk0gUcy4kqy98",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Nd8NjJ0NxK8"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T11:02:17Z",
+        "channelId": "UCh0Bi3fFUdFIUoACa_QKQcg",
+        "title": "#funny #dogs #pet #dogshorts#doglife#interesting #cute",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Nd8NjJ0NxK8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Nd8NjJ0NxK8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Nd8NjJ0NxK8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ZP-Ilona Muza",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-31T11:02:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tT4k55ViWRFhNUdG1O78CHTGrgU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2YxBdVahGE4"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T08:08:51Z",
+        "channelId": "UCR6QTCHxzImZug1AD1IT3IA",
+        "title": "Funny dog videos#dogs#dogs#dogslover #dogshorts #funnydogs#youtubeshorts#nf",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2YxBdVahGE4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2YxBdVahGE4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2YxBdVahGE4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nsutesh",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-31T08:08:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9QV3LHTL1bjYPPBukroHN0nSyfI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iJMmDO5L4yE"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T14:20:01Z",
+        "channelId": "UCkclufc_TinD8T1_zRFmxKQ",
+        "title": "ELE É TOP #humor #fyp #dogs #dog #100",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iJMmDO5L4yE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iJMmDO5L4yE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iJMmDO5L4yE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DINHO VLOGS YT",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-31T14:20:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1VIstwJWiazsz1sY8AADrbfd3SA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mfP1haG-yaQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-02T22:24:22Z",
+        "channelId": "UCyL4L7ll25MYr5E9PtzOAOg",
+        "title": "🥺#photography #video #viral #funny #shorts #happy #love #like #cute #dog #dogs #animal #animals #fy",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mfP1haG-yaQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mfP1haG-yaQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mfP1haG-yaQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fernanda Sagas",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-02T22:24:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YtfBDszYJlU2uhKzJklluQhb4Dg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ISBgG2LCjGk"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-21T08:33:44Z",
+        "channelId": "UC95VaC9xoZhSHrk0b80xusA",
+        "title": "12 Hours of Dog Calming Music for Dogs 🐾 Anti Separation Anxiety Relief Music🐶Sleep dog Healing🎵",
+        "description": "12 Hours of Dog Calming Music for Dogs Anti Separation Anxiety Relief Music  Sleep dog Healing   ◕◕◕ Welcome to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ISBgG2LCjGk/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ISBgG2LCjGk/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ISBgG2LCjGk/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Heal My Dog",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-05-21T08:33:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NHTgn8X3vFHsr5JBDf5ZH5pT6MU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "X7shAGmDBbM"
+      },
+      "snippet": {
+        "publishedAt": "2018-09-11T04:00:03Z",
+        "channelId": "UCk5bIh544LgQ2_ecTQQ5wQg",
+        "title": "Wild Red Dogs | SIMBA THE KING LION | Episode 13 | English | Full HD | 1080p",
+        "description": "Simba, Bimbo and Mamma Wolf's cubs are playing when they are suddenly attacked by a fearsome pack of red dogs. Defending ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/X7shAGmDBbM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/X7shAGmDBbM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/X7shAGmDBbM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KIDFLIX (English)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-09-11T04:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R_h9Ofl9XiMXbZl7x7iitivSGU4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "C2XsMB0j_rs"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-01T18:22:43Z",
+        "channelId": "UC7_VH_kj0aD9vhuHmFheUYQ",
+        "title": "No one wanted this shy shelter dog. So I took her home.",
+        "description": "No one wanted this shy shelter dog. So I took her home. Check out this story: https://www.instagram.com/lindalootherescue ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C2XsMB0j_rs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C2XsMB0j_rs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C2XsMB0j_rs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "GeoBeats Animals",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-01T18:22:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7Diu2fgfyur0qZGpe6mwgayNZ4A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PQ_DY8FEcXs"
+      },
+      "snippet": {
+        "publishedAt": "2025-02-22T16:00:21Z",
+        "channelId": "UCUFnGWHIQvybwmR7XDh7-9A",
+        "title": "One HUGE job grooming this giant beast of a dog | FUR-nado Warning ⚠️",
+        "description": "SUBSCRIBE TO MY NEW PERSONAL PET CHANNEL* https://youtube.com/@GirlWithHerDogs?si=0K_X2A94y7UbMbLi *SHOP ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PQ_DY8FEcXs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PQ_DY8FEcXs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PQ_DY8FEcXs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Girl With The Dogs",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-02-22T16:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O0XXAtiV3-FyiWMp4pc0gEQDLX0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "N80cgdmNQ7c"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-01T00:00:33Z",
+        "channelId": "UCINb0wqPz-A0dV9nARjJlOQ",
+        "title": "Dog Dumped by Road Becomes Best Friends with Her New Baby Sister | The Dodo",
+        "description": "So he brought her home to meet someone very special...❤️ Jonathan told us how careful he was introducing his 10-month-old ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/N80cgdmNQ7c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/N80cgdmNQ7c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/N80cgdmNQ7c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Dodo",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-01T00:00:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GHWoTkfh-ZvBMjIzwB51RJK6nww",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gUMz6tOSjeE"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-29T17:15:54Z",
+        "channelId": "UCaggPXKINAk0RDGSbsvaONg",
+        "title": "He&#39;s a 10 but..... #dogs #funny #funnyvideo #cutedog  #comedy",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gUMz6tOSjeE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gUMz6tOSjeE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gUMz6tOSjeE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Squish Biscuit",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-29T17:15:54Z"
+      }
+    }
+  ]
+}

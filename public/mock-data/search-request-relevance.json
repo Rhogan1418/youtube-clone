@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "IUBSIofWE5uiBEPA-vApw8HT55E",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "c5Mc1ZuWMA8GigCIQ2Z643zDCLg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gFLUxSgJMjM"
+      },
+      "snippet": {
+        "publishedAt": "2024-02-02T20:31:54Z",
+        "channelId": "UCdC0An4ZPNr_YiFiYoVbwaw",
+        "title": "Police Dogs Never Forget",
+        "description": "Source: Collab.Inc #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gFLUxSgJMjM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gFLUxSgJMjM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gFLUxSgJMjM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Daily Dose Of Internet",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-02-02T20:31:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QXAlHoOsDPS1ug0rSl0s2qmBnyA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7P4OxUN4Jd0"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-28T15:00:07Z",
+        "channelId": "UCPIvT-zcQl2H0vabdXJGcpg",
+        "title": "FUNNIEST Viral Dogs EVER!!",
+        "description": "We're celebrating all our barking friends who have gone viral! ✨    Subscribe to The Scoop for our most entertaining pet ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7P4OxUN4Jd0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7P4OxUN4Jd0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7P4OxUN4Jd0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Pet Collective",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-28T15:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "L4zvkHsAcKnObtL9iNF3cad_res",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xxqVyK5-MbU"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-18T10:01:37Z",
+        "channelId": "UCPWtyfWtQfd44o7s_n5iI4A",
+        "title": "A dog&#39;s intuition can save a life #dog #pets #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xxqVyK5-MbU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xxqVyK5-MbU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xxqVyK5-MbU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Paw and Baby",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-18T10:01:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oc8xE7xjSqvhH5yndg-vXD2TCGI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "F-QwWrv92Rs"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-07T14:15:23Z",
+        "channelId": "UCLW9eDPBm8zcTQJh73tc-0A",
+        "title": "Ranking the Funniest Dog Moments (Part 2)",
+        "description": "Ranking the Funniest Dog Moments (Part 2) Credit: tt/adrianchateau.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F-QwWrv92Rs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F-QwWrv92Rs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F-QwWrv92Rs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Who Ranked It?!",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-07T14:15:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Tu7yhHohbp0hl11EnaeA4aj8Owg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IR79YNc1G2c"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-22T01:48:37Z",
+        "channelId": "UCdE-s7nmojuNmT1L6xxmX6A",
+        "title": "You see a dog… I see my lifeline #dogsofyoutube #dogs #dog #goldenretreiver",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IR79YNc1G2c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IR79YNc1G2c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IR79YNc1G2c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Moriarty Family",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-22T01:48:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ND_NmraeLAG3QlfLwRalGp3177g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ifyU9KHdomY"
+      },
+      "snippet": {
+        "publishedAt": "2024-11-11T20:34:27Z",
+        "channelId": "UCPIvT-zcQl2H0vabdXJGcpg",
+        "title": "Hilarious But Useful Dog Walking Tips",
+        "description": "If it works, it works! #Dogs #Funny #DogWalking #DogMom #GermanShepherd ✨    Subscribe to The Scoop for our most ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ifyU9KHdomY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ifyU9KHdomY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ifyU9KHdomY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Pet Collective",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-11-11T20:34:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jNcctRbcgH6xbnQP0N3AKp-QBmk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nnY7HG6FWco"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-16T16:26:54Z",
+        "channelId": "UCG7n0wdl7iRaEc6zngKvz6A",
+        "title": "Ranking Dogs Understanding English",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nnY7HG6FWco/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nnY7HG6FWco/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nnY7HG6FWco/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ChrisJBacon",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-16T16:26:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "T_1BZFZqz0kJ0oJy7ufe5ZW0ZCk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pFWoL0JMV0s"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-22T03:18:00Z",
+        "channelId": "UCCa1P2Gv8485xDvCro5cfkw",
+        "title": "Other People&#39;s Dogs Vs My Dog 😂 (pt.37) #shorts #dog",
+        "description": "Subscribe if you like dogs ! Got a funny video of your dog? We'd love to feature your pup in our next episode! Send your clips to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pFWoL0JMV0s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pFWoL0JMV0s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pFWoL0JMV0s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Daily Dose of Furry Friends",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-22T03:18:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cdXrGoeNClP0v0LWz0I6zGU2CJo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-Dhg-syHyPM"
+      },
+      "snippet": {
+        "publishedAt": "2024-09-15T01:38:27Z",
+        "channelId": "UCoru-fl7xctDKH5FWa0bI2Q",
+        "title": "Dancing Puppy Deli 🐶😂 Cute Dog Shows Off Dance Moves",
+        "description": "Dog #motorcycle #dance #dogdance #petdance #pet #goldenretriever.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-Dhg-syHyPM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-Dhg-syHyPM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-Dhg-syHyPM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Animal World - Sereno Vive",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-09-15T01:38:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8S98lRB8iJZ8cpQu-C7XeuUVAg4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_ZplybWvLOg"
+      },
+      "snippet": {
+        "publishedAt": "2014-10-29T21:28:43Z",
+        "channelId": "UCB_2_OiPFh6FdUvp50_maug",
+        "title": "* DOGS * | Animals For Kids | All Things Animal TV",
+        "description": "DOGS * | Animals For Kids Quality, educational videos for kids. Made in the UK. Subscribe to All Things Animal TV! here: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_ZplybWvLOg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_ZplybWvLOg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_ZplybWvLOg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "All Things Animal TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2014-10-29T21:28:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hKLfEQomf2QwqYsfSnaAqp2c21E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "r6h6fqIIlFc"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-12T16:33:40Z",
+        "channelId": "UCSuCAO0udbOOxXHQlbY1FxA",
+        "title": "Dogs are too sassy 🤣#dog #funny #pets",
+        "description": "funny #shorts #dog #pets #animals #funnyanimals.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/r6h6fqIIlFc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/r6h6fqIIlFc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/r6h6fqIIlFc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AllDogsGoToHeaven",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-12T16:33:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TQV9aOQ6API2qw31hnjnrSvpH1w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "c2OTHeCKsBE"
+      },
+      "snippet": {
+        "publishedAt": "2016-12-08T17:22:47Z",
+        "channelId": "UCC7tqA6lA2QRw4BdrAEKFxg",
+        "title": "Dogs&#39; Epic Shopping Cart Voyage: Funny Dogs Maymo &amp; Penny",
+        "description": "Dogs' Epic Shopping Cart Voyage: Funny Dogs Maymo & Penny Subscribe: http://bit.ly/VzYUvE | Make sure to enable ALL push ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/c2OTHeCKsBE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/c2OTHeCKsBE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/c2OTHeCKsBE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Maymo",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-12-08T17:22:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "E913E-W1E80JbvrXJKsAjPS62fc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hHdv7K-2QyQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-11T20:00:26Z",
+        "channelId": "UCINb0wqPz-A0dV9nARjJlOQ",
+        "title": "Tiny Frenchie Terrorizes His Lazy Brother l The Dodo #thedodo #animals #dogs",
+        "description": "Does anyone else relate to Oso? Love Animals? Subscribe: http://thedo.do/2tv6Ocd ¿Hablas español?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hHdv7K-2QyQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hHdv7K-2QyQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hHdv7K-2QyQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Dodo",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-11T20:00:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GRnLYzryYk2kcNKHArZ6w6ejxDU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XJJfFIXG9ew"
+      },
+      "snippet": {
+        "publishedAt": "2025-02-01T00:30:24Z",
+        "channelId": "UC9sgwt3fBT1qeeMbm95656g",
+        "title": "Dogs being cute part 42 #funny #lovegoldens #funnyanimals #pets #cutegolden #funnydogs #funnypets",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XJJfFIXG9ew/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XJJfFIXG9ew/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XJJfFIXG9ew/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "animal diary",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-02-01T00:30:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aaNTWGUjGq_X-v4IYpMy0U0zVU0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2mtpjQj1Rw8"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-31T05:00:08Z",
+        "channelId": "UCgqxSXszA2EkRVI0E8UMWFw",
+        "title": "&quot;Me and My Dog... but I&#39;m the Victim&quot;#dog#dogs #pet #teenagedog#zoomies",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2mtpjQj1Rw8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2mtpjQj1Rw8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2mtpjQj1Rw8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "paw_tato",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-31T05:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-joShfn7pMCWw5bYBi_hQPdtMv4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fQO_pKYioeI"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-27T22:27:51Z",
+        "channelId": "UC1G9pwKwx9RpFwSohdkmhxA",
+        "title": "How Dog Breeds React to the Mailman",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fQO_pKYioeI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fQO_pKYioeI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fQO_pKYioeI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Jonny Devaney",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-27T22:27:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Jh-ISK596wpAPfW_QEcvjWzNdZI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WBLSrumYBuA"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-20T19:17:43Z",
+        "channelId": "UCdE-s7nmojuNmT1L6xxmX6A",
+        "title": "My dogs are so different! #dogsofyoutube #dog #dogs #husky #goldenretriever #puppy",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WBLSrumYBuA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WBLSrumYBuA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WBLSrumYBuA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Moriarty Family",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-20T19:17:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ihyi55rFEniBg1CqEezcV9MrLWQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4QA30qkRYy8"
+      },
+      "snippet": {
+        "publishedAt": "2016-01-08T16:52:44Z",
+        "channelId": "UCO6LS_5W7vqG9mALDNzSFug",
+        "title": "Dogs",
+        "description": "Provided to YouTube by Pink Floyd Dogs · Pink Floyd Animals ℗ Pink Floyd Records Released on: 1997-01-21 Auto-generated ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4QA30qkRYy8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4QA30qkRYy8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4QA30qkRYy8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Pink Floyd - Topic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-01-08T16:52:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ghFy5iqf0n2PI76sFLWoEULGaHY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "B1aVArLt3wg"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-23T20:00:02Z",
+        "channelId": "UCINb0wqPz-A0dV9nARjJlOQ",
+        "title": "Dog or Mermaid? | The Dodo",
+        "description": "4-legged Ariel ‍♀️     Love Animals? Subscribe: http://thedo.do/2tv6Ocd ¿Hablas español?: https://thedo.do/2BsuN4o Follow ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B1aVArLt3wg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B1aVArLt3wg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B1aVArLt3wg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Dodo",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-23T20:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DMlidnGV6DCIVZRWLrJh-ZISHtM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xVIceYTnnY4"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-17T03:16:00Z",
+        "channelId": "UCCa1P2Gv8485xDvCro5cfkw",
+        "title": "Other People&#39;s Dogs Vs My Dog 😂 (pt.32) #shorts #dog",
+        "description": "Subscribe if you like dogs ! Got a funny video of your dog? We'd love to feature your pup in our next episode! Send your clips to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xVIceYTnnY4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xVIceYTnnY4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xVIceYTnnY4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Daily Dose of Furry Friends",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-17T03:16:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Grn6n-D43lPe39x3bif8oteMTZ8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "X4PcG_Kqn_o"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-31T12:30:28Z",
+        "channelId": "UCvz84_Q0BbvZThy75mbd-Dg",
+        "title": "Dog Breeds With Tail Docking 😮",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/X4PcG_Kqn_o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/X4PcG_Kqn_o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/X4PcG_Kqn_o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Zack D. Films",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-31T12:30:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BfW29Zn9BuxMOLJXOYdB0JVYQDE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-AdteE-KuIg"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T13:00:00Z",
+        "channelId": "UCPIvT-zcQl2H0vabdXJGcpg",
+        "title": "HILARIOUS Dogs Being Weird 🤪 | 60 Minutes Of Funny Dog Videos",
+        "description": "Dogs! Who doesn't love 'em...and also wonder how they get up to some of these shenanigans! #Dogs #Pets #puppy ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-AdteE-KuIg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-AdteE-KuIg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-AdteE-KuIg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Pet Collective",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T13:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ckPfXiOxqUmQYVAwMws7VHxJoLw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3jNoAM-jrgk"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-06T14:34:27Z",
+        "channelId": "UCQiTesViiVyhqaObE9Lzk2w",
+        "title": "My dogs went sledding down the stairs!",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3jNoAM-jrgk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3jNoAM-jrgk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3jNoAM-jrgk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AGuyAndAGolden",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-06T14:34:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5txo1-TW7KQPw5_-T3oIsZJbtiM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HrG1Ewzg6zg"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-17T21:58:59Z",
+        "channelId": "UCofXFskZSRZV7ehHPhOlfiA",
+        "title": "60 Minutes Of The Best And Bravest Dogs | 1 Hour of Animal Videos For Kids | Dodo Kids",
+        "description": "Daring dog rescues, heroic dogs helping their friends and brave dogs learning to walk! It's one hour of brave dogs and the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HrG1Ewzg6zg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HrG1Ewzg6zg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HrG1Ewzg6zg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Dodo Kids",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-17T21:58:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rrBbEoCrrZriYpXVu88C9tGTz0k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NU1DXw297KA"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-13T13:05:12Z",
+        "channelId": "UCQ1O4XEUMO3_dYEYRvGQPDg",
+        "title": "I am your doggy, you listen to me! 😏 #puppy #goldenretriever #dogs #puppies #dogshorts #dog",
+        "description": "Original TikTok audio by: destinyschi.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NU1DXw297KA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NU1DXw297KA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NU1DXw297KA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Daisy & Maple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-13T13:05:12Z"
+      }
+    }
+  ]
+}

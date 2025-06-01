@@ -39,10 +39,9 @@ class SearchInput extends LitElement {
 
     .clear-icon {
       position: absolute;
-      right: 80px;
-      top: 10px;
+      right: 70px;
       cursor: pointer;
-      font-size: 18px;
+      font-size: 26px;
       color: #ffffff80;
       user-select: none;
     }
