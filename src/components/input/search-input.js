@@ -20,6 +20,7 @@ class SearchInput extends LitElement {
       outline: none;
       padding-left: 20px;
       color: #f1f1f1;
+      font-size: 16px
     }
 
     input:focus {
