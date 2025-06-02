@@ -66,7 +66,6 @@ class SearchResultsSkeleton extends LitElement {
         max-width: 320px;
         gap: 4px;
       }
-
     }
   `;
 

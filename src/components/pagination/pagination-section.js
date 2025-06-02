@@ -28,24 +28,24 @@ class PaginationSection extends LitElement {
 
   render() {
     return html`
-        <round-button
-          ?disabled=${!this.hasPrevPage} 
-          showBorder width=${100} 
-          eventName="prev-click"
-          aria-label="Previous page"
-        >
-          Previous
-        </round-button>
-        <p>Page ${this.currentPageNumber} of ${this.totalPages}</p>
-        <round-button 
-          ?disabled=${!this.hasNextPage} 
-          showBorder 
-          width=${100} 
-          eventName="next-click"
-          aria-label="Next page"
-        >
-          Next
-        </round-button>
+      <round-button
+        ?disabled=${!this.hasPrevPage} 
+        showBorder width=${90} 
+        eventName="prev-click"
+        aria-label="Previous page"
+      >
+        Previous
+      </round-button>
+      <p>Page ${this.currentPageNumber} of ${this.totalPages}</p>
+      <round-button 
+        ?disabled=${!this.hasNextPage} 
+        showBorder 
+        width=${90} 
+        eventName="next-click"
+        aria-label="Next page"
+      >
+        Next
+      </round-button>
     `;
   }
 }

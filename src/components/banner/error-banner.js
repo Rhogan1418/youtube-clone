@@ -16,19 +16,19 @@ class ErrorBanner extends LitElement {
 
     }
     @media (max-width: 760px) {
-        :host {
-            margin: auto;
-        }
-        div {
-            display: flex;
-            max-width: 320px;
-            margin: 0;
-            margin: 0 auto 20px auto;
-        }
+      :host {
+          margin: auto;
+      }
+      div {
+          display: flex;
+          max-width: 320px;
+          margin: 0;
+          margin: 0 auto 20px auto;
+      }
     }
   `;
 
- render() {
+  render() {
     return html`
         <div>
             <slot></slot>

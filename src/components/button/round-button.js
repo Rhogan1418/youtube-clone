@@ -1,7 +1,7 @@
 import { html, css, LitElement } from 'lit';
 
 class RoundButton extends LitElement {
-    static properties = {
+  static properties = {
     disabled: {type: Boolean},
     showBorder: { type: Boolean },
     eventName: { type: String },
@@ -62,15 +62,15 @@ class RoundButton extends LitElement {
     );
   }
 
- render() {
-  const style = this.width ? `width: ${this.width}px` : '';
-  const classes = this.showBorder ? 'with-border' : '';
+  render() {
+    const style = this.width ? `width: ${this.width}px` : '';
+    const classes = this.showBorder ? 'with-border' : '';
 
-  return html`
-    <button class=${classes} style=${style} @click=${this.handleClick} ?disabled=${this.disabled} aria-label=${this.ariaLabel}>
-      <slot></slot>
-    </button>
-  `;
+    return html`
+      <button class=${classes} style=${style} @click=${this.handleClick} ?disabled=${this.disabled} aria-label=${this.ariaLabel}>
+        <slot></slot>
+      </button>
+    `;
   }
 }
 

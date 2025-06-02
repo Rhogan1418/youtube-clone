@@ -21,7 +21,7 @@ export class SearchPage extends LitElement {
     }
   `;
 
-   constructor() {
+  constructor() {
     super()
     this.toggleDrawer = false;
     this.query = '';
@@ -29,7 +29,7 @@ export class SearchPage extends LitElement {
     this.addEventListener('search-click', this.handleSearchClick);
   }
 
-   handleHamburgerClick() {
+  handleHamburgerClick() {
     this.toggleDrawer = !this.toggleDrawer;
   }
 

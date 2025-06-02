@@ -52,8 +52,8 @@ class SearchResultCard extends LitElement {
         display: flex;
         justify-content: center;
         padding-left: 0;
-
       }
+
       .video-description {
         display: none;
       }
@@ -64,7 +64,6 @@ class SearchResultCard extends LitElement {
         max-width: 320px;
         gap: 4px;
       }
-
     }
   `;
 

@@ -65,10 +65,11 @@ class SideDrawer extends LitElement {
   }
 
   sideDrawerLink = (label, iconSrc, href, ariaLabel) => 
-    html`<a href=${href} class="icon-with-text" aria-label=${ariaLabel}>
-            <img height="24px" src=${iconSrc} alt=""/>
-            <div>${label}</div>
-        </a>
+    html`
+      <a href=${href} class="icon-with-text" aria-label=${ariaLabel}>
+        <img height="24px" src=${iconSrc} alt=""/>
+        <div>${label}</div>
+      </a>
     `
 
   render() {

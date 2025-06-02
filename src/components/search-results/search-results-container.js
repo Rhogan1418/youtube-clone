@@ -7,10 +7,8 @@ import '../banner/error-banner.js'
 import './search-result-card.js';
 import './search-results-skeleton.js';
 import './welcome-message.js';
-
 import '../pagination/pagination-section.js';
 import '../select/select-filter.js';
-
 
 const SORT_OPTIONS = [
   { name: 'Relevance', value: 'relevance' },
@@ -31,31 +29,43 @@ class SearchResultsContainer extends LitElement {
   }
 
   static styles = css`
-      :host {
+    :host {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 20px;
+    width: 100%;
+    }
+
+    #search-results {
       display: flex;
-      justify-content: center;
-      margin: 0 auto;
-      max-width: 1240px;
-      padding: 20px;
+      flex-direction: column;
       width: 100%;
-      }
+    }
 
-      #search-results {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-      }
+    #search-results-container {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      width: 100%;
+    }
 
-      #search-results-container {
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        width: 100%;
-      }
+    p {
+      text-align: center;
+    }
 
-      p {
-        text-align: center;
+    #sort-by-container {
+      display: flex;
+      justify-content: end;
+      width: 100%;
+    }
+
+    @media (max-width: 760px) {
+      #sort-by-container {
+        justify-content: center;
       }
+    }
   `
 
   constructor() {
@@ -114,6 +124,7 @@ class SearchResultsContainer extends LitElement {
 
   renderSearchResults = (searchResults) => {
     if (!searchResults) return null;
+
     if (searchResults.items.length === 0) {
       this.showPagination = false;
       return html`<p>We were unable to find any videos for "${this.query}"</p>`;
@@ -160,30 +171,31 @@ class SearchResultsContainer extends LitElement {
   };
 
   render() {
-      if (!this.query) {
-        return html`<welcome-message></welcome-message>`;
-      }
-
-      return html`<div id="search-results-container">
-                    ${this.errorMessage ? html`<error-banner>${this.errorMessage}</error-banner>` : null}
-                    ${this.showSortBy ? html`<select-filter .options=${this.options}></select-filter>`: null}
-                    <div id="search-results">
-                      ${this.searchTask.render({
-                        pending: () => html`<search-results-skeleton count="5"></search-results-skeleton>`,
-                        complete: this.renderSearchResults,
-                      })}
-                      </div>
-                      ${this.showPagination ? html`
-                        <pagination-section 
-                          .currentPageNumber=${this.currentPageNumber} 
-                          .totalPages=${this.totalPages} 
-                          .hasPrevPage=${!!this.prevPageToken} 
-                          .hasNextPage=${!!this.nextPageToken}>
-                        </pagination-section>
-                      ` : null}
-                  </div>
-      `
+    if (!this.query) {
+      return html`<welcome-message></welcome-message>`;
     }
+
+    return html`
+      <div id="search-results-container">
+        ${this.errorMessage ? html`<error-banner>${this.errorMessage}</error-banner>` : null}
+        ${this.showSortBy ? html`<div id="sort-by-container"><select-filter .options=${this.options}></select-filter></div>`: null}
+        <div id="search-results">
+          ${this.searchTask.render({
+            pending: () => html`<search-results-skeleton count="5"></search-results-skeleton>`,
+            complete: this.renderSearchResults,
+          })}
+          </div>
+          ${this.showPagination ? html`
+            <pagination-section 
+              .currentPageNumber=${this.currentPageNumber} 
+              .totalPages=${this.totalPages} 
+              .hasPrevPage=${!!this.prevPageToken} 
+              .hasNextPage=${!!this.nextPageToken}>
+            </pagination-section>
+          ` : null}
+      </div>
+    `
+  }
 }
 
 customElements.define('search-results-container', SearchResultsContainer);

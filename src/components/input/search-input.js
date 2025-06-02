@@ -10,6 +10,7 @@ class SearchInput extends LitElement {
     :host {
       width: 100%;
     }
+    
     input {
       background-color: transparent;
       border: 1px solid #303030;
@@ -18,6 +19,7 @@ class SearchInput extends LitElement {
       height: 36px;
       outline: none;
       padding-left: 20px;
+      color: #f1f1f1;
     }
 
     input:focus {

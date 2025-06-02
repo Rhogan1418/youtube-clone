@@ -1,7 +1,7 @@
 import { html, css, LitElement } from 'lit';
 
 class SelectFilter extends LitElement {
-    static properties = {
+  static properties = {
     options: { type: Array },
     value: { type: String },
   };
@@ -12,6 +12,7 @@ class SelectFilter extends LitElement {
       align-items: center;
       gap: 10px;
       font-size: 14px;
+      color: #f1f1f1;
     }
 
     select {
@@ -23,6 +24,7 @@ class SelectFilter extends LitElement {
       appearance: none;
       -webkit-appearance: none;
       -moz-appearance: none;
+      color: #f1f1f1;
     }
 
     .select-wrapper {
@@ -66,7 +68,7 @@ class SelectFilter extends LitElement {
     }));
   }
 
- render() {
+  render() {
     return html`
       <label>Sort by:</label>
       <div class="select-wrapper">
@@ -78,7 +80,5 @@ class SelectFilter extends LitElement {
     `;
   }
 }
-
-
 
 customElements.define('select-filter', SelectFilter);
