@@ -108,7 +108,7 @@ class SearchResultsContainer extends LitElement {
       }
 
       if (result.isMockData) {
-        this.errorMessage = 'This is MOCK DATA! We could not locate your API key. For instructions on adding your API key, please check out the README.';
+        this.errorMessage = `⚠️ You're currently viewing mock data because we couldn't find an API key. To enable live results, follow the steps in the README.`;
       } else {
         this.errorMessage = '';
       }
