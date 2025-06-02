@@ -10,7 +10,7 @@ class SearchInput extends LitElement {
     :host {
       width: 100%;
     }
-    
+
     input {
       background-color: transparent;
       border: 1px solid #303030;
@@ -47,7 +47,7 @@ class SearchInput extends LitElement {
       position: absolute;
       right: 70px;
       cursor: pointer;
-      font-size: 26px;
+      font-size: 25px;
       color: #ffffff80;
       user-select: none;
     }
