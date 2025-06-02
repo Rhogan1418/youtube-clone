@@ -8,14 +8,14 @@ class WelcomeMessage extends LitElement {
 
     #head {
       font-size: 24px;
-      font-weight: 600;
+      font-weight: bold;
       color: #f1f1f1;
       padding-bottom: 10px;
     }
 
     div {
-      border: 1px solid #ffffff50;
-      background-color: #ffffff09;
+      border: 1px solid #ffffff20;
+      background-color: #222222;
       border-radius: 14px;
       display: flex;
       flex-direction: column;
@@ -23,12 +23,12 @@ class WelcomeMessage extends LitElement {
       padding: 30px;
       font-size: 14px;
       text-align: center;
+    }
 
-      p {
-        padding: 0;
-        margin: 0;
-        color: #ffffff80;
-      }
+    p {
+      padding: 0;
+      margin: 0;
+      color: #ffffff80;
     }
 
     @media (max-width: 760px) {

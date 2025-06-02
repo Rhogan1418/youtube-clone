@@ -2,7 +2,8 @@ import { html, css, LitElement } from 'lit';
 import hamburgerMenuIcon from '../../assets/hamburger-menu.svg';
 import personOutlineIcon from '../../assets/person-circle-outline.svg';
 import youtubeLogo from '../../assets/youtube-logo.svg';
-import magGlass from "../../assets/mag-glass.svg"
+import magGlass from '../../assets/mag-glass.svg'
+import leftArrow from '../../assets/left-arrow.svg';
 import '../button/round-button.js';
 import '../input/search-input.js';
 
@@ -88,11 +89,11 @@ export class Navbar extends LitElement {
   render() {
     const classes = this.showSearch ? 'hidden' : '';
     const navMiddleClass = this.showSearch ? 'active' : '';
-    
+
     return html`
       <div id='navbar'> 
         <div id='nav-start'>
-          <round-button id="back-button" aria-label="Back to main nav" class=${navMiddleClass} @click=${this.handleBackClick}><span id="arrow">&#11013;</span></round-button>
+          <round-button id="back-button" aria-label="Back to main nav" class=${navMiddleClass} @click=${this.handleBackClick}><img height="20px" src=${leftArrow} /></round-button>
           <round-button class=${classes} aria-label="Open Menu" eventName='nav-hamburger-click'>
               <img height="24px" id="hamburger-menu" src=${hamburgerMenuIcon} />
           </round-button>                

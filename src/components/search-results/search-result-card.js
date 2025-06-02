@@ -44,7 +44,7 @@ class SearchResultCard extends LitElement {
 
     a {
       text-decoration: none;
-      color: #ffffff;
+      color: #f1f1f1;
     }
 
     @media (max-width: 760px) {

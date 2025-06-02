@@ -28,7 +28,7 @@ class SearchInput extends LitElement {
     }
 
     button {
-      background-color: #ffffff09;
+      background-color: #222222;
       border: 1px solid #303030;
       border-left: none;
       height: 40px;

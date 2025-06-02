@@ -23,15 +23,16 @@ class SideDrawer extends LitElement {
       height: 100%;
       display: flex;
       z-index: 10;
+    }
 
-      .icon-with-text {
-        flex-direction: row;
-        justify-content: left;
-        font-size: 14px;
-        padding-left: 21px;
-        gap: 20px;
-        width: 100%;
-      }
+    #container.open .icon-with-text {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      font-size: 14px;
+      padding-left: 21px;
+      gap: 20px;
+      width: 100%;
     }
 
     .icon-with-text {
@@ -48,7 +49,7 @@ class SideDrawer extends LitElement {
     }
 
     .icon-with-text:hover {
-      background-color: #ffffff1a;
+      background-color: #222222;
     }
 
     @media (max-width: 760px) {

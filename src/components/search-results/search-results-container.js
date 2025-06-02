@@ -30,12 +30,12 @@ class SearchResultsContainer extends LitElement {
 
   static styles = css`
     :host {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1240px;
-    padding: 20px;
-    width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      max-width: 1240px;
+      padding: 20px;
+      width: 100%;
     }
 
     #search-results {

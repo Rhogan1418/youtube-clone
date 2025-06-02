@@ -31,7 +31,7 @@ class RoundButton extends LitElement {
     }
 
     button:hover {
-      background-color: #ffffff1a;
+      background-color: #222222;
       border-color: #ffffff10;
     }
     
