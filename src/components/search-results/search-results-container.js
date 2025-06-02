@@ -109,7 +109,6 @@ class SearchResultsContainer extends LitElement {
       this.totalPages = result.totalPages;
       this.showPagination = true;
       this.showSortBy = true;
-
     }
   })
 
@@ -158,7 +157,6 @@ class SearchResultsContainer extends LitElement {
     this.errorMessage = error.message;
     this.showPagination = false;
     this.showSortBy = false;
-    this.requestUpdate();
   };
 
   render() {
