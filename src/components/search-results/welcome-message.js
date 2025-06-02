@@ -34,6 +34,12 @@ class WelcomeMessage extends LitElement {
         :host {
           margin-left: 0;
         }
+        #head {
+          font-size: 20px;
+        }
+        div {
+          font-size: 12px;
+        }
 
     }
   `;

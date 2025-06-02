@@ -2,7 +2,7 @@ export const getVideoIds = (searchResults) => {
     return searchResults.map((searchResult) => searchResult.videoId);
 }
 
-export const mapSearchRequestResults = (searchRequestData) => {
+export const mapSearchRequestResults = (searchRequestData, isMockData) => {
     const { nextPageToken, pageInfo, items, prevPageToken } = searchRequestData;
     const result = items.map((listItem) => {
         const {title, description, thumbnails } = listItem.snippet;
@@ -16,6 +16,7 @@ export const mapSearchRequestResults = (searchRequestData) => {
     })
 
     return {
+        isMockData,
         nextPageToken: nextPageToken || null,
         prevPageToken: prevPageToken || null,
         totalPages: Math.ceil(pageInfo.totalResults / pageInfo.resultsPerPage).toLocaleString(),  

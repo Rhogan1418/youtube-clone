@@ -3,11 +3,14 @@ import { Task } from '@lit/task';
 import {mapSearchResultsToStats, getVideoIds} from '../../helpers/search-results.helper.js';
 import {getSearchResults, getVideoStatisticResults} from '../../services/youtube-api.js';
 
-import './welcome-message.js';
+import '../banner/error-banner.js'
 import './search-result-card.js';
-import '../select/select-filter.js';
 import './search-results-skeleton.js';
+import './welcome-message.js';
+
 import '../pagination/pagination-section.js';
+import '../select/select-filter.js';
+
 
 const SORT_OPTIONS = [
   { name: 'Relevance', value: 'relevance' },
@@ -17,12 +20,14 @@ const SORT_OPTIONS = [
 
 class SearchResultsContainer extends LitElement {
   static properties = {
-    query: {type: String},
-    sortBy: {type: String},
+    query: { type: String },
+    sortBy: { type: String },
     totalPages: { type: String },
     pageToken: { type: String },
-    currentPageNumber: {type: Number},
-    showPagination: {type: Boolean}
+    currentPageNumber: { type: Number },
+    showPagination: { type: Boolean },
+    showSortBy: { type: Boolean },
+    errorMessage: { type: String }
   }
 
   static styles = css`
@@ -59,6 +64,8 @@ class SearchResultsContainer extends LitElement {
     this.sortBy = 'relevance';
     this.options = SORT_OPTIONS;
     this.showPagination = false;
+    this.showSortBy = false;
+    this.errorMessage = '';
 
     this.pageToken = '';
     this.totalPages = '';
@@ -74,22 +81,42 @@ class SearchResultsContainer extends LitElement {
   searchTask = new Task(this, {
     task: async ([query, sortBy, pageToken], { signal }) => {
       if (!query) return;
-      const searchResults = await getSearchResults(query, sortBy, pageToken, signal);
-      if (!searchResults) return
-      const videoStatResults = await getVideoStatisticResults(getVideoIds(searchResults.items), signal);
-      return mapSearchResultsToStats(searchResults, videoStatResults);
+      try {
+        const searchResults = await getSearchResults(query, sortBy, pageToken, signal);
+        if (!searchResults) return
+        const videoStatResults = await getVideoStatisticResults(getVideoIds(searchResults.items), signal);
+        return mapSearchResultsToStats(searchResults, videoStatResults);
+      } catch (err) {
+        this.handleError(err);
+        return null;
+      }
     },
     args: () => [this.query, this.sortBy, this.pageToken],
     onComplete: (result) => {
+      if (!result) {
+        return;
+      }
+
+      if (result.isMockData) {
+        this.errorMessage = 'This is MOCK DATA! We could not locate your API key. For instructions on adding your API key, please check out the README.';
+      } else {
+        this.errorMessage = '';
+      }
+
+      this.isMockData = result.isMockData;
       this.nextPageToken = result.nextPageToken;
       this.prevPageToken = result.prevPageToken;
       this.totalPages = result.totalPages;
       this.showPagination = true;
+      this.showSortBy = true;
+
     }
   })
 
   renderSearchResults = (searchResults) => {
+    if (!searchResults) return null;
     if (searchResults.items.length === 0) {
+      this.showPagination = false;
       return html`<p>We were unable to find any videos for "${this.query}"</p>`;
     }
 
@@ -127,14 +154,11 @@ class SearchResultsContainer extends LitElement {
     this.sortBy = e.detail.value;
   }
 
-  handleSearchError = (reasons) => {
+  handleError = (error) => {
+    this.errorMessage = error.message;
     this.showPagination = false;
-    if (reasons.includes('quotaExceeded')) {
-      return html`<p>YouTube API quota exceeded. Please try again later.</p>`;
-    } else if (reasons.includes('API_KEY_INVALID')) {
-      return html`<p>It looks like there is an issue with your API key. Either it is invalid or it was never added to the environment.</p>`;
-    }
-    return html`<p>Something went wrong. Try again soon.</p>`;
+    this.showSortBy = false;
+    this.requestUpdate();
   };
 
   render() {
@@ -143,12 +167,12 @@ class SearchResultsContainer extends LitElement {
       }
 
       return html`<div id="search-results-container">
-                    <select-filter .options=${this.options}></select-filter>
+                    ${this.errorMessage ? html`<error-banner>${this.errorMessage}</error-banner>` : null}
+                    ${this.showSortBy ? html`<select-filter .options=${this.options}></select-filter>`: null}
                     <div id="search-results">
                       ${this.searchTask.render({
                         pending: () => html`<search-results-skeleton count="5"></search-results-skeleton>`,
                         complete: this.renderSearchResults,
-                        error: this.handleSearchError
                       })}
                       </div>
                       ${this.showPagination ? html`

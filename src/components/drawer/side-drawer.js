@@ -22,6 +22,7 @@ class SideDrawer extends LitElement {
       padding-right: 23px;
       height: 100%;
       display: flex;
+      z-index: 10;
 
       .icon-with-text {
         flex-direction: row;
